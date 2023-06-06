@@ -1,0 +1,42 @@
+{
+  "name": "gulp-sass-build",
+  "version": "1.0.0",
+  "description": "Gulp sass build adalah sebuah modul node.js yang digunakan untuk mempercepat proses pengembangan tema yang dilengkapi dengan compiler sass",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist --copy-files",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kusenabdullah-123/gulp-sass-build.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "build",
+    "mmodule"
+  ],
+  "author": "KusenaDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kusenabdullah-123/gulp-sass-build/issues"
+  },
+  "homepage": "https://github.com/kusenabdullah-123/gulp-sass-build#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.21.5",
+    "@babel/preset-env": "^7.22.4",
+    "babel-loader": "^8.3.0"
+  }
+}
